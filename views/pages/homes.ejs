@@ -1,0 +1,86 @@
+<%- include('../includes/head') %>
+
+
+<!--  The mager lists chooses -->
+<article id="smart__zonestoetsen">
+
+   <select class="choos__samrtzone choos__smartzone---naam" onchange = "window.location.herf = this.value">
+            <option value="/">naam</option>
+                 <% smartzones.forEach((smartzone) => {%>
+            <option value="/smartzones/name/<%- smartzone.smartzoneId %>"><%- smartzone.name%></option>
+
+      <%})%>
+
+   </select>
+
+   <select name="format" class="choos__samrtzone choos__smartzone---town" onchange = "getNm(this.value)">
+    <option selected disabled >city</option>
+
+         <% smartzones.forEach((smartzone) => {%>
+
+        <option><%- smartzone.town %></option><%})%>
+
+    </select>
+
+    
+     <!-- linke's to separate page's -->
+
+    <a class="choos__smartzone---linke" href="/add">Nieuwe Zone</a>
+    <a class="choos__smartzone---linke" href="/edit">Editing Zone</a>
+    <a class="choos__smartzone---linke" href="/delete">Delete Zone</a>
+
+
+</article>
+
+<!-- content -->
+<section id="filter">
+
+    <% 
+     smartzones.filter(smartzone => smartzone.name === 'Wafa')
+
+     .map(smartzone =>{%> 
+
+        <article id="smartzone__content">
+
+           <section class="inhoude__content">
+
+               <h3>smartzoneid</h3>
+               <p><%- smartzone.smartzoneId %></p>
+
+            </section>
+
+           <section class="inhoude__content">
+                <h3>Naam</h3>
+                <p><%- smartzone.name %></p>
+            
+           </section>
+
+            <section class="inhoude__content">
+                <h3>Stad</h3>
+             <p><%- smartzone.town %></p>
+            </section>
+
+            <section class="inhoude__content">
+                <h3>functie</h3>
+                <p><%- smartzone.function %></p>
+            </section>
+
+            
+    
+        </article>
+
+         <article id="samrtzone___img">
+                <img src="<%- smartzone.image %>" alt="" class="samrt__img">
+
+         </article>
+
+         
+
+    <%})%>
+      
+
+</section>
+
+
+
+<%- include('../includes/foot') %>
