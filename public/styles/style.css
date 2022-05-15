@@ -304,6 +304,8 @@ footer{
     color: gold;
 } 
 
+/* mobile versie */
+
 @media (max-width:40em){
     #logo__nav{
         width: 86px;
