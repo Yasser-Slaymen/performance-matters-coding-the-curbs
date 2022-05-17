@@ -25,11 +25,14 @@ Coding the Curbs is een start-up die sinds januari 2020  werkt aan het slimmer m
 * Postcss
 
 ## 🧑‍💻Installatie
-![Clone repo](https://github.com/Yasser-Slaymen/performance-matters-coding-the-curbs.git)
-## Gebruik
+[Clone repo](https://github.com/Yasser-Slaymen/performance-matters-coding-the-curbs.git)
+## 🎢Gebruik
+* Install npm packages
+* Run local server : npm run start
 
 ## Bronnen
-
+* [Front-end preformance cheklist](https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/)
+* [SMASHING MAGAZINE](https://www.smashingmagazine.com/2015/08/understanding-critical-css/)
 ## Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
