@@ -11,10 +11,10 @@
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
-## Beschrijving
+## 🤖Beschrijving
 Coding the Curbs is een start-up die sinds januari 2020  werkt aan het slimmer maken van de steden. Ik heb in deze opdracht aan preformance gewerkt.Denk daarbij aan  minifycss, code splitting, compression, cache header en responsive images
 
-## Kenmerken
+## 🧭Kenmerken
 * HTML
 * CSS
 * Javascript
