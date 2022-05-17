@@ -2,14 +2,7 @@
 
 ![Screenshot (22)](https://user-images.githubusercontent.com/90189815/168689311-a4bec1a1-39a0-4e36-ba32-32f067192ac9.png)
 
-## Inhoudsopgave
 
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Installatie](#installatie)
-  * [Gebruik](#gebruik)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
 
 ## 🤖Beschrijving
 Coding the Curbs is een start-up die sinds januari 2020  werkt aan het slimmer maken van de steden. Ik heb in deze opdracht aan preformance gewerkt.Denk daarbij aan  minifycss, code splitting, compression, cache header en responsive images
@@ -30,7 +23,7 @@ Coding the Curbs is een start-up die sinds januari 2020  werkt aan het slimmer m
 * Install npm packages
 * Run local server : npm run start
 
-## Bronnen
+## 🧭Bronnen
 * [Front-end preformance cheklist](https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/)
 * [SMASHING MAGAZINE](https://www.smashingmagazine.com/2015/08/understanding-critical-css/)
 ## Licentie
