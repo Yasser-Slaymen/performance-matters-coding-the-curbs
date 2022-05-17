@@ -2,6 +2,7 @@
 
 ![Screenshot (22)](https://user-images.githubusercontent.com/90189815/168689311-a4bec1a1-39a0-4e36-ba32-32f067192ac9.png)
 
+![Screenshot (24)](https://user-images.githubusercontent.com/90189815/168912962-8195661c-1f80-4913-9828-c9b98cd79825.png)
 
 
 ## 🤖Beschrijving
