@@ -25,7 +25,7 @@ Coding the Curbs is een start-up die sinds januari 2020  werkt aan het slimmer m
 * Postcss
 
 ## 🧑‍💻Installatie
-(#clone repo)[gh repo clone Yasser-Slaymen/performance-matters-coding-the-curbs]
+![Clone repo](https://github.com/Yasser-Slaymen/performance-matters-coding-the-curbs.git)
 ## Gebruik
 
 ## Bronnen
