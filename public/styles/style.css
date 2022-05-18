@@ -41,6 +41,17 @@ header{
     z-index: 100;
     
 }
+
+.nav__baar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 2em;
+}
+ul{
+    list-style: none;
+}
+
 /* togel-mobile */
 .toggle__button{
     display: none;
@@ -57,12 +68,16 @@ header{
     font-family: 'Smooch Sans', sans-serif;
     text-decoration-line: none;
     color: white;
-    margin: .3em;
+    margin: .5em;
 }
 
 .link__nav:hover{
+    width: fit-content;
+    height: fit-content;
+    padding: 1em;
     color: black;
     cursor: pointer;
+    background-color:white;
 }
 
 /* form */
@@ -244,18 +259,18 @@ footer{
     justify-content: space-around;
 }
 
-.footer__nav il{
+.footer__nav li{
     margin: .5em;
     color: var(--white);
 }
-.footer__nav il >a{
+.footer__nav li >a{
     font-size: 1.2em;
     color: var(--white);
 
 }
 
-.footer__nav il >a:hover{
-    color: var(--light-green);
+.footer__nav li >a:hover{
+    color:white;
 }
 
 .footer__pramarylogos{

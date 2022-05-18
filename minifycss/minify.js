@@ -3,8 +3,7 @@ const cssnano = require('cssnano');
 const autoprefixer = require('autoprefixer');
 const fs = require('fs');
 const cssFile = './public/styles/style.css'
-// const minCssFile = 'public/styles/style.mini.css'
-const minCssFile = 'public/styles/style.m.css'
+const minCssFile = 'public/styles/style.mini.css'
 
 // all CSS
 fs.readFile( cssFile, async (err, data) => {
