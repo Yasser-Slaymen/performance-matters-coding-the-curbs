@@ -3,12 +3,11 @@
 
 <!--  The mager lists chooses -->
 <article id="smart__zonestoetsen">
-    <select class="choos__samrtzone choos__smartzone---naam" onchange = "window.location.herf = this.value">
-        <option value="/">naam</option>
+
+    <select  name="format" class="choos__samrtzone choos__smartzone---naam" onchange = "getNm(this.value)">
+        <option selected disabled>naam</option>
              <% smartzones.forEach((smartzone) => {%>
-        <option value="/smartzones/name/<%- smartzone.smartzoneId %>"><%- smartzone.name%></option>
-    
-    <%})%>
+        <option><%- smartzone.smrtzoneId%></option><%})%>
     </select>
 
   

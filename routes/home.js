@@ -9,6 +9,7 @@ const BaseUrl = 'https://codingthecurbs.api.fdnd.nl/v1/smartzone'
 router.get('/',(req, res) =>{
     fetchJson(BaseUrl)
     .then( (JsonData) => {
+        // console.log(JsonData)
         res.render('pages/homes', {
             title:'Smart Zones',
             smartzones: JsonData.data
@@ -17,11 +18,17 @@ router.get('/',(req, res) =>{
     
 })
 
+async function fetchJson(url, postData = {}) {
+    return await fetch(url, postData)
+      .then((response) => response.json())
+      .catch((error) => error)
+}
 
-async function fetchJson(url) {
-    return await fetch(url)
-      .then((response) => resporounse.json())
-      .catch((error) => error);
-  }
+
+// async function fetchJson(url) {
+//     return await fetch(url)
+//       .then((response) => resporounse.json())
+//       .catch((error) => error);
+//   }
 
 module.exports = router
