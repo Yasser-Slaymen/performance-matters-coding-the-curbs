@@ -3,15 +3,15 @@
 
 <!--  The mager lists chooses -->
 <article id="smart__zonestoetsen">
-
-   <select class="choos__samrtzone choos__smartzone---naam" onchange = "window.location.herf = this.value">
-            <option value="/">naam</option>
-                 <% smartzones.forEach((smartzone) => {%>
-            <option value="/smartzones/name/<%- smartzone.smartzoneId %>"><%- smartzone.name%></option>
-
-        <%})%>
+    <select class="choos__samrtzone choos__smartzone---naam" onchange = "window.location.herf = this.value">
+        <option value="/">naam</option>
+             <% smartzones.forEach((smartzone) => {%>
+        <option value="/smartzones/name/<%- smartzone.smartzoneId %>"><%- smartzone.name%></option>
+    
+    <%})%>
     </select>
 
+  
    <select name="format" class="choos__samrtzone choos__smartzone---town" onchange = "getNm(this.value)">
     <option selected disabled >city</option>
 
@@ -34,8 +34,7 @@
 <!-- content -->
 <section id="filter">
 
-    <% 
-     smartzones.filter(smartzone => smartzone.name === 'Wafa')
+    <% smartzones.filter(smartzone => smartzone.name === 'Wafa')
 
      .map(smartzone =>{%> 
 
