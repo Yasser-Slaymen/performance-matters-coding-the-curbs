@@ -20,7 +20,7 @@ router.get('/',(req, res) =>{
 
 async function fetchJson(url) {
     return await fetch(url)
-      .then((response) => response.json())
+      .then((response) => resporounse.json())
       .catch((error) => error);
   }
 

@@ -9,9 +9,8 @@
                  <% smartzones.forEach((smartzone) => {%>
             <option value="/smartzones/name/<%- smartzone.smartzoneId %>"><%- smartzone.name%></option>
 
-      <%})%>
-
-   </select>
+        <%})%>
+    </select>
 
    <select name="format" class="choos__samrtzone choos__smartzone---town" onchange = "getNm(this.value)">
     <option selected disabled >city</option>
