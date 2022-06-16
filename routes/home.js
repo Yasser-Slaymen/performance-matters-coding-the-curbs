@@ -15,7 +15,6 @@ router.get('/',(req, res) =>{
             smartzones: JsonData.data
         })
     })
-    
 })
 
 async function fetchJson(url, postData = {}) {
