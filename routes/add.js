@@ -14,7 +14,7 @@ router.post('/add', urlencodedParser, (req, res) =>{
 
     }
 
-    fetchJson(BaseUrl, postData).then(function () {
+    fetchJson(BaseUrl, postData).then(() =>{
         res.render('pages/add', {
           title: 'add new post',
         })
